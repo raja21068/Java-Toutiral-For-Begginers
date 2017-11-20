@@ -1,0 +1,2 @@
+Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+Connection con = DriverManager.getConnection("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=d:\\data.mdb");
